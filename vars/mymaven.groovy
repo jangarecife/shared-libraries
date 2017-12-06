@@ -1,4 +1,4 @@
-import org.skat
+import org.skat.*
 
 def call() {
 	def sc = new SharedClass()
