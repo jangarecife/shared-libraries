@@ -1,3 +1,5 @@
 def call() {
-    echo "HALLO!"
+	def sc = new SharedClass()
+	
+    echo "HALLO! " + sc.myName()
 }
