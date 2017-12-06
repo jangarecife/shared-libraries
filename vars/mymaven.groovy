@@ -5,6 +5,5 @@ def call() {
 	
     echo "HALLO! " + sc.myName()
 
-	echo "Branch: " + sc.printBranch()
-	
+
 }
