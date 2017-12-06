@@ -5,8 +5,7 @@ class SharedClass {
 		return "Poul" 
 	}
 	
-	def git() {
-		credentialsId: '258ed905-321d-4293-aac8-85858f77819d', url: 'git@github.com:jangarecife/jenkins-workshop.git'
-		
-	}
+	def checkOut(repo) {
+		git url: "git@github.com:${repo}"
+    }
 }
