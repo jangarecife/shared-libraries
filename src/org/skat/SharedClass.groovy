@@ -1,6 +1,6 @@
 package org.skat
 
-class SharedClass() {
+class SharedClass {
 	def myName {
 		return "Poul" 
 	}
