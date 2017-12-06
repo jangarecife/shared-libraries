@@ -11,6 +11,6 @@ class SharedClass {
     }
 	
 	def checkOutFrom() {
-		git url: "git@github.com:jangarecife/jenkins-workshop.git"
-	  }
+		git url: "git@github.com:jangarecife/jenkins-workshop.git, credentialsId: '258ed905-321d-4293-aac8-85858f77819d'"
+	}
 }
